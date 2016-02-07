@@ -121,13 +121,6 @@ if (! function_exists('vdebug')) {
     }
 }
 
-if (!function_exists('dd')) {
-    function dd($var, $die=true)
-    {
-        return vdebug($var, $die);
-    }
-}
-
 // ------------------------------------------------------------------------
 
 /**
